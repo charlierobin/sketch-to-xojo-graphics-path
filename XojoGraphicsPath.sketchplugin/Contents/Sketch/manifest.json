@@ -1,0 +1,26 @@
+{
+  "author" : "Charlie Robin",
+  "icon": "icon.png",
+  "commands" : [
+    {
+      "script" : "script.js",
+      "name" : "Generate",
+      "handlers" : {
+        "run" : "onRun"
+      },
+      "identifier" : "com.charlierobin.sketch.plugin.runscriptidentifier",
+      "shortcut": "shift cmd x"
+    }
+  ],
+  "menu" : {
+    "title" : "Xojo GraphicsPath",
+    "items" : [
+      "com.charlierobin.sketch.plugin.runscriptidentifier"
+    ]
+  },
+  "identifier" : "com.charlierobin.sketch.plugin.xojographicspath",
+  "version" : "1.0",
+  "description" : "Create Xojo GraphicsPath methods for selected items",
+  "authorEmail" : "charlie@charlierobin.com",
+  "name" : "XojoGraphicsPath"
+}
