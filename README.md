@@ -2,7 +2,7 @@
 
 Only works on simple ungrouped paths at the moment, with each shape/path normalised to 0,0.
 
-If there is a rotation applied to the shape, it needs to be flattened .
+If there is a rotation applied to the shape, it needs to be flattened. (Otherwise you will get the code for your shape, but with no rotation applied.)
 
 All the above shortcomings will hopefully be addressed (and quickly), but single simple paths were enough for what I was trying to achieve, so that’s all I bothered implementing.
 
